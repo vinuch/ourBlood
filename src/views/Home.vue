@@ -106,11 +106,14 @@ export default {
             text: "Blood Group Data",
           },
           xAxis: {
+            title: {
+              text: "Genotype",
+            },
             categories: ["A+", "A-", "B+", "B-", "O+", "O-", "AB+", "AB-"],
           },
           yAxis: {
             title: {
-              text: "Fruit eaten",
+              text: "Number of people",
             },
           },
           series: [

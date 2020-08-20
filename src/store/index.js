@@ -60,9 +60,6 @@ export default new Vuex.Store({
           
           localStorage.setItem('USERS', JSON.stringify(result))
           commit('SET_USERS', result)
-
-          
-          
         }
 
 
