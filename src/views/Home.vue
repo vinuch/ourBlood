@@ -103,7 +103,7 @@ export default {
             type: "column",
           },
           title: {
-            text: "Fruit Consumption",
+            text: "Blood Group Data",
           },
           xAxis: {
             categories: ["A+", "A-", "B+", "B-", "O+", "O-", "AB+", "AB-"],
