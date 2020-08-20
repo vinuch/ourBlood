@@ -91,10 +91,11 @@ export default {
     },
   },
   mounted() {
-    this.fetchUsers();
     // this.countdown()
   },
   created() {
+    this.fetchUsers();
+
     let timerId = setInterval(
       () =>
         Highcharts.chart("container", {
